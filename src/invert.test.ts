@@ -1,8 +1,8 @@
-import { iamActionsForService, iamServiceKeys } from '@cloud-copilot/iam-data'
+import { iamActionsForService, iamServiceKeys } from '@actsecurity/iam-data'
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { invertIamActions } from './invert.js'
 
-vi.mock('@cloud-copilot/iam-data')
+vi.mock('@actsecurity/iam-data')
 
 beforeEach(() => {
   vi.resetAllMocks()

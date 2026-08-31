@@ -1,4 +1,4 @@
-import { readStdin } from '@cloud-copilot/cli'
+import { readStdin } from '@actsecurity/cli'
 import { type ExpandIamActionsOptions, InvalidActionBehavior } from './expand.js'
 import { expandJsonDocument, type ExpandJsonDocumentOptions } from './expand_file.js'
 

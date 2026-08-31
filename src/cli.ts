@@ -1,18 +1,13 @@
 #!/usr/bin/env node
 
-import {
-  booleanArgument,
-  enumArgument,
-  numberArgument,
-  parseCliArguments
-} from '@cloud-copilot/cli'
-import { iamDataUpdatedAt, iamDataVersion } from '@cloud-copilot/iam-data'
+import { booleanArgument, enumArgument, numberArgument, parseCliArguments } from '@actsecurity/cli'
+import { iamDataUpdatedAt, iamDataVersion } from '@actsecurity/iam-data'
 import { invalidActionBehaviorForString, parseStdIn } from './cli_utils.js'
 import { expandIamActions } from './expand.js'
 import { invertIamActions } from './invert.js'
 import { getPackageFileReader } from './readPackageFile.js'
 
-const dataPackage = '@cloud-copilot/iam-data'
+const dataPackage = '@actsecurity/iam-data'
 const fiveDays = 432_000_000
 
 /**

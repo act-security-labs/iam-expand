@@ -20,10 +20,9 @@
 
 ## [0.11.72](https://github.com/cloud-copilot/iam-expand/compare/v0.11.71...v0.11.72) (2026-06-22)
 
-
 ### Features
 
-* Performance/memory improvements ([5113a1f](https://github.com/cloud-copilot/iam-expand/commit/5113a1fc29531e50f03b76b46eaccbe137236568))
+- Performance/memory improvements ([5113a1f](https://github.com/cloud-copilot/iam-expand/commit/5113a1fc29531e50f03b76b46eaccbe137236568))
 
 ## [0.11.71](https://github.com/cloud-copilot/iam-expand/compare/v0.11.70...v0.11.71) (2026-06-13)
 
@@ -89,10 +88,9 @@
 
 ## [0.11.40](https://github.com/cloud-copilot/iam-expand/compare/v0.11.39...v0.11.40) (2025-11-09)
 
-
 ### Bug Fixes
 
-* Remove GuardDog package scan ([2a2fc86](https://github.com/cloud-copilot/iam-expand/commit/2a2fc86a55540f046287e84a54ec50f4665e1605))
+- Remove GuardDog package scan ([2a2fc86](https://github.com/cloud-copilot/iam-expand/commit/2a2fc86a55540f046287e84a54ec50f4665e1605))
 
 ## [0.11.39](https://github.com/cloud-copilot/iam-expand/compare/v0.11.38...v0.11.39) (2025-11-08)
 
@@ -118,24 +116,21 @@
 
 ## [0.11.28](https://github.com/cloud-copilot/iam-expand/compare/v0.11.27...v0.11.28) (2025-08-26)
 
-
 ### Features
 
-* Upgrade iam-data ([cc60b56](https://github.com/cloud-copilot/iam-expand/commit/cc60b56983ead7f0d04a8ceefa1861b490d8abab))
+- Upgrade iam-data ([cc60b56](https://github.com/cloud-copilot/iam-expand/commit/cc60b56983ead7f0d04a8ceefa1861b490d8abab))
 
 ## [0.11.27](https://github.com/cloud-copilot/iam-expand/compare/v0.11.26...v0.11.27) (2025-08-25)
 
-
 ### Features
 
-* Upgrade iam-data ([da16de7](https://github.com/cloud-copilot/iam-expand/commit/da16de7fc391f7ab52e73ad305a0d1057088216f))
+- Upgrade iam-data ([da16de7](https://github.com/cloud-copilot/iam-expand/commit/da16de7fc391f7ab52e73ad305a0d1057088216f))
 
 ## [0.11.26](https://github.com/cloud-copilot/iam-expand/compare/v0.11.25...v0.11.26) (2025-08-25)
 
-
 ### Features
 
-* Upgrade iam-data ([4dd9ebf](https://github.com/cloud-copilot/iam-expand/commit/4dd9ebf1d5bdd0fbe60eabe87fde4817282a5683))
+- Upgrade iam-data ([4dd9ebf](https://github.com/cloud-copilot/iam-expand/commit/4dd9ebf1d5bdd0fbe60eabe87fde4817282a5683))
 
 ## [0.11.25](https://github.com/cloud-copilot/iam-expand/compare/v0.11.24...v0.11.25) (2025-08-23)
 
@@ -145,10 +140,9 @@
 
 ## [0.11.22](https://github.com/cloud-copilot/iam-expand/compare/v0.11.21...v0.11.22) (2025-08-03)
 
-
 ### Features
 
-* Upgrade CLI, add --version option ([1e6024c](https://github.com/cloud-copilot/iam-expand/commit/1e6024c1d03a11442206809dd3d3ced4d8eaf71d))
+- Upgrade CLI, add --version option ([1e6024c](https://github.com/cloud-copilot/iam-expand/commit/1e6024c1d03a11442206809dd3d3ced4d8eaf71d))
 
 ## [0.11.21](https://github.com/cloud-copilot/iam-expand/compare/v0.11.20...v0.11.21) (2025-08-03)
 
@@ -182,10 +176,9 @@
 
 ## [0.11.6](https://github.com/cloud-copilot/iam-expand/compare/v0.11.5...v0.11.6) (2025-04-10)
 
-
 ### Features
 
-* Add new function `matchesAnyAction` to check if a pattern matches any one action. Add new function `actionMatchesPattern` to see if a pattern matches a specific action. ([902c184](https://github.com/cloud-copilot/iam-expand/commit/902c184f34a5790fddfb5543ca1dbfeb3d067a5b))
+- Add new function `matchesAnyAction` to check if a pattern matches any one action. Add new function `actionMatchesPattern` to see if a pattern matches a specific action. ([902c184](https://github.com/cloud-copilot/iam-expand/commit/902c184f34a5790fddfb5543ca1dbfeb3d067a5b))
 
 ## [0.11.5](https://github.com/cloud-copilot/iam-expand/compare/v0.11.4...v0.11.5) (2025-04-05)
 
@@ -195,14 +188,12 @@
 
 ## [0.11.2](https://github.com/cloud-copilot/iam-expand/compare/v0.11.1...v0.11.2) (2025-03-01)
 
-
 ### Bug Fixes
 
-* adding a clearer message if there is no valid input ([704fa7d](https://github.com/cloud-copilot/iam-expand/commit/704fa7d40d174d6be0c1102cec7dfa4065145711))
+- adding a clearer message if there is no valid input ([704fa7d](https://github.com/cloud-copilot/iam-expand/commit/704fa7d40d174d6be0c1102cec7dfa4065145711))
 
 ## [0.11.1](https://github.com/cloud-copilot/iam-expand/compare/v0.11.0...v0.11.1) (2025-02-15)
 
-
 ### Features
 
-* upgrading project to use @cloud-copilot/cli. Updating docs, deleting a lot of code! ([ea5afb6](https://github.com/cloud-copilot/iam-expand/commit/ea5afb683335fa606070690bcb2345bf64d107bd))
+- upgrading project to use @actsecurity/cli. Updating docs, deleting a lot of code! ([ea5afb6](https://github.com/cloud-copilot/iam-expand/commit/ea5afb683335fa606070690bcb2345bf64d107bd))

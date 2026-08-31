@@ -4,7 +4,7 @@ import {
   iamActionsForService,
   iamServiceExists,
   iamServiceKeys
-} from '@cloud-copilot/iam-data'
+} from '@actsecurity/iam-data'
 import {
   isAllAsterisks,
   parseIamActionParts,

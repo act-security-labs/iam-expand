@@ -1,3 +1,10 @@
+## [0.11.83](https://github.com/act-security-labs/iam-expand/compare/v0.11.82...v0.11.83) (2026-08-31)
+
+
+### Features
+
+* Migrate to actsecurity ([f8ddb40](https://github.com/act-security-labs/iam-expand/commit/f8ddb40354e12838594c4bc8e7287e872a5230b9))
+
 ## [0.11.82](https://github.com/cloud-copilot/iam-expand/compare/v0.11.81...v0.11.82) (2026-08-29)
 
 ## [0.11.81](https://github.com/cloud-copilot/iam-expand/compare/v0.11.80...v0.11.81) (2026-08-22)

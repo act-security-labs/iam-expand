@@ -1,11 +1,6 @@
 #!/usr/bin/env node
 
-import {
-  booleanArgument,
-  enumArgument,
-  numberArgument,
-  parseCliArguments
-} from '@actsecurity/cli'
+import { booleanArgument, enumArgument, numberArgument, parseCliArguments } from '@actsecurity/cli'
 import { iamDataUpdatedAt, iamDataVersion } from '@actsecurity/iam-data'
 import { invalidActionBehaviorForString, parseStdIn } from './cli_utils.js'
 import { expandIamActions } from './expand.js'

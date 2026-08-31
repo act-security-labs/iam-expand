@@ -1,4 +1,4 @@
-import { iamActionsForService, iamServiceKeys } from '@cloud-copilot/iam-data'
+import { iamActionsForService, iamServiceKeys } from '@actsecurity/iam-data'
 import { isAllAsterisks, parseIamActionParts, wildcardMatches } from './util.js'
 
 export interface InvertIamActionsOptions {}

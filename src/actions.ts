@@ -1,4 +1,4 @@
-import { iamActionExists, iamActionsForService, iamServiceExists } from '@cloud-copilot/iam-data'
+import { iamActionExists, iamActionsForService, iamServiceExists } from '@actsecurity/iam-data'
 import { parseIamActionParts, unescapeUnicodeCharacters, wildcardMatches } from './util.js'
 
 /**

@@ -1,8 +1,8 @@
 import { beforeEach, describe, expect, it, vi } from 'vitest'
 import { extractActionsFromLineOfInput, parseStdIn } from './cli_utils'
 
-import { readStdin } from '@cloud-copilot/cli'
-vi.mock('@cloud-copilot/cli')
+import { readStdin } from '@actsecurity/cli'
+vi.mock('@actsecurity/cli')
 
 beforeEach(() => {
   vi.resetAllMocks()

@@ -18,7 +18,7 @@ Extended demo [on YouTube](https://www.youtube.com/watch?v=357-uGru7300).
 
 Published as an [npm package](#typescriptnodejs-usage) in ESM and CommonJS plus available as a [CLI](#cli).
 
-All information is sourced from [@cloud-copilot/iam-data](https://github.com/cloud-copilot/iam-data) which is updated daily.
+All information is sourced from [@actsecurity/iam-data](https://github.com/cloud-copilot/iam-data) which is updated daily.
 
 ## Only Valid Values
 
@@ -203,11 +203,11 @@ Show the version of the data that is being used to expand the actions and exit.
 
 ```bash
 iam-expand --show-data-version
-@cloud-copilot/iam-data version: 0.3.202409051
+@actsecurity/iam-data version: 0.3.202409051
 Data last updated: Thu Sep 05 2024 04:46:39 GMT+0000 (Coordinated Universal Time)
 Update with either:
-  npm update @cloud-copilot/iam-data
-  npm update -g @cloud-copilot/iam-data
+  npm update @actsecurity/iam-data
+  npm update -g @actsecurity/iam-data
 ```
 
 #### `--read-wait-ms`

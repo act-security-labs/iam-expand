@@ -100,7 +100,7 @@ async function run() {
           const pkgData = await getPackageFileReader().readFile(['package.json'])
           return JSON.parse(pkgData).version
         },
-        checkForUpdates: '@cloud-copilot/iam-expand'
+        checkForUpdates: '@actsecurity/iam-expand'
       }
     }
   )

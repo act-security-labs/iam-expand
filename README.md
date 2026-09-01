@@ -1,6 +1,6 @@
 # Expand IAM Actions
 
-[![NPM Version](https://img.shields.io/npm/v/@cloud-copilot/iam-expand.svg?logo=nodedotjs)](https://www.npmjs.com/package/@cloud-copilot/iam-expand) [![License: AGPL v3](https://img.shields.io/github/license/cloud-copilot/iam-expand)](LICENSE.txt) [![GuardDog](https://github.com/cloud-copilot/iam-expand/actions/workflows/guarddog.yml/badge.svg)](https://github.com/cloud-copilot/iam-expand/actions/workflows/guarddog.yml) [![Known Vulnerabilities](https://snyk.io/test/github/cloud-copilot/iam-expand/badge.svg?targetFile=package.json&style=flat-square)](https://snyk.io/test/github/cloud-copilot/iam-expand?targetFile=package.json)
+[![NPM Version](https://img.shields.io/npm/v/@actsecurity/iam-expand.svg?logo=nodedotjs)](https://www.npmjs.com/package/@actsecurity/iam-expand) [![License: AGPL v3](https://img.shields.io/github/license/act-security-labs/iam-expand)](LICENSE.txt) [![GuardDog](https://github.com/act-security-labs/iam-expand/actions/workflows/guarddog.yml/badge.svg)](https://github.com/act-security-labs/iam-expand/actions/workflows/guarddog.yml) [![Known Vulnerabilities](https://snyk.io/test/github/act-security-labs/iam-expand/badge.svg?targetFile=package.json&style=flat-square)](https://snyk.io/test/github/act-security-labs/iam-expand?targetFile=package.json)
 
 Built in the Unix philosophy, this is a small tool that does one thing well: explain IAM actions with wildcards.
 
@@ -18,7 +18,7 @@ Extended demo [on YouTube](https://www.youtube.com/watch?v=357-uGru7300).
 
 Published as an [npm package](#typescriptnodejs-usage) in ESM and CommonJS plus available as a [CLI](#cli).
 
-All information is sourced from [@actsecurity/iam-data](https://github.com/cloud-copilot/iam-data) which is updated daily.
+All information is sourced from [@actsecurity/iam-data](https://github.com/act-security-labs/iam-data) which is updated daily.
 
 ## Only Valid Values
 
@@ -37,7 +37,7 @@ There is a CLI! The [examples folder](examples/README.md) has examples showing h
 You can install it globally. This also works in the default AWS CloudShell!
 
 ```bash
-npm install -g @cloud-copilot/iam-expand
+npm install -g @actsecurity/iam-expand
 ```
 
 _Depending on your configuration sudo may be required to install globally._
@@ -47,9 +47,9 @@ _Depending on your configuration sudo may be required to install globally._
 You can also install the CLI in a project and run it with `npx`.
 
 ```bash
-npm install @cloud-copilot/iam-expand
+npm install @actsecurity/iam-expand
 # Run with npx inside your project
-npx @cloud-copilot/iam-expand
+npx @actsecurity/iam-expand
 ```
 
 ### Expand Actions
@@ -389,11 +389,11 @@ Please give this anything you can think of and open an issue if you see an oppor
 ## Add to a project
 
 ```bash
-npm install @cloud-copilot/iam-expand
+npm install @actsecurity/iam-expand
 ```
 
 ```typescript
-import { expandIamActions } from '@cloud-copilot/iam-expand'
+import { expandIamActions } from '@actsecurity/iam-expand'
 
 expandIamActions('s3:Get*Tagging')[
   ('s3:GetBucketTagging',
@@ -438,7 +438,7 @@ Any escaped unicode characters will be converted to their original character as 
 By default, a single `*` will not be expanded. If you want to expand a single `*` you can set this option to `true`.
 
 ```typescript
-import { expandIamActions } from '@cloud-copilot/iam-expand';
+import { expandIamActions } from '@actsecurity/iam-expand';
 
 //Returns the unexpanded value
 expandIamActions('*')
@@ -461,7 +461,7 @@ By default, if an invalid format is passed in, such as:
 it will be silenty ignored and left out of the output. If you want to throw an error when an invalid format is passed in you can set this option to `true`.
 
 ```typescript
-import { expandIamActions } from '@cloud-copilot/iam-expand';
+import { expandIamActions } from '@actsecurity/iam-expand';
 
 //Ignore invalid format
 expandIamActions('s3Get*Tagging')
@@ -477,7 +477,7 @@ expandIamActions('s3Get*Tagging', { errorOnInvalidFormat: true })
 By default, if a service is passed in that does not exist in the IAM data, it will be silently ignored and left out of the output. If you want to throw an error when a service is passed in that does not exist you can set this option to `true`.
 
 ```typescript
-import { expandIamActions } from '@cloud-copilot/iam-expand';
+import { expandIamActions } from '@actsecurity/iam-expand';
 
 //Ignore invalid service
 expandIamActions('r2:Get*Tagging')
@@ -493,7 +493,7 @@ expandIamActions('r2:Get*Tagging', { errorOnInvalidService: true })
 By default, if an action is passed in that does not exist in the IAM data, it will be silently ignored and left out of the output. There are two options to override this behavior: `Error` and `Include`.
 
 ```typescript
-import { expandIamActions, InvalidActionBehavior } from '@cloud-copilot/iam-expand';
+import { expandIamActions, InvalidActionBehavior } from '@actsecurity/iam-expand';
 
 //Ignore invalid action by default
 expandIamActions('ec2:DestroyAvailabilityZone')

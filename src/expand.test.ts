@@ -104,6 +104,23 @@ describe('expand', () => {
       expect(result).toEqual(['s3:GetObject'])
     })
 
+    it('should use the default Remove behavior when invalidActionBehavior is undefined', async () => {
+      //Given actionString contains an invalid action
+      const actionString = 's3:MissingAction'
+      //And a CLI-style options object explicitly includes an undefined invalidActionBehavior
+      const options = { invalidActionBehavior: undefined }
+      //And s3 the service exists
+      vi.mocked(iamServiceExists).mockResolvedValue(true)
+      //And the action does not exist
+      vi.mocked(iamActionExists).mockResolvedValue(false)
+
+      //When expand is called with actionString and options
+      const result = await expandIamActions(actionString, options)
+
+      //Then the default behavior removes the invalid action without throwing
+      expect(result).toEqual([])
+    })
+
     it('should remove an invalid action if invalidActionBehavior is Remove', async () => {
       //Given actionString contains an invalid action
       const actionString = 's3:DoSomethingDumb'

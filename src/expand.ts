@@ -77,7 +77,12 @@ export async function expandIamActions(
   actionStringOrStrings: string | string[],
   overrideOptions?: Partial<ExpandIamActionsOptions>
 ): Promise<string[]> {
-  const options = { ...defaultOptions, ...overrideOptions }
+  const options = {
+    ...defaultOptions,
+    ...overrideOptions,
+    invalidActionBehavior:
+      overrideOptions?.invalidActionBehavior ?? defaultOptions.invalidActionBehavior
+  }
 
   if (!actionStringOrStrings) {
     //Just in case the user passes in null or undefined

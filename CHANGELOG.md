@@ -1,3 +1,10 @@
+## [0.11.85](https://github.com/act-security-labs/iam-expand/compare/v0.11.84...v0.11.85) (2026-09-15)
+
+
+### Bug Fixes
+
+* preserve invalid action default ([f23024e](https://github.com/act-security-labs/iam-expand/commit/f23024e9b07fe75f6cf39df2888c41e78dbd4d13))
+
 ## [0.11.84](https://github.com/act-security-labs/iam-expand/compare/v0.11.83...v0.11.84) (2026-09-01)
 
 ## [0.11.83](https://github.com/act-security-labs/iam-expand/compare/v0.11.82...v0.11.83) (2026-08-31)

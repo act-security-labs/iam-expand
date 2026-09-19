@@ -1,3 +1,10 @@
+## [0.11.86](https://github.com/act-security-labs/iam-expand/compare/v0.11.85...v0.11.86) (2026-09-19)
+
+
+### Bug Fixes
+
+* use updated dependency updater action ([eebc1e6](https://github.com/act-security-labs/iam-expand/commit/eebc1e6e434ad241ddaed5ef7112cebd7b0fceda))
+
 ## [0.11.85](https://github.com/act-security-labs/iam-expand/compare/v0.11.84...v0.11.85) (2026-09-15)
 
 

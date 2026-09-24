@@ -1,3 +1,10 @@
+## [0.11.88](https://github.com/act-security-labs/iam-expand/compare/v0.11.87...v0.11.88) (2026-09-24)
+
+
+### Bug Fixes
+
+* run PR checks safely for fork contributions ([707b724](https://github.com/act-security-labs/iam-expand/commit/707b7240adcf0ba9c6eaf7cf8ed80f091d6f6504))
+
 ## [0.11.87](https://github.com/act-security-labs/iam-expand/compare/v0.11.86...v0.11.87) (2026-09-19)
 
 ## [0.11.86](https://github.com/act-security-labs/iam-expand/compare/v0.11.85...v0.11.86) (2026-09-19)

@@ -1,3 +1,5 @@
+## [0.11.96](https://github.com/act-security-labs/iam-expand/compare/v0.11.95...v0.11.96) (2026-11-07)
+
 ## [0.11.95](https://github.com/act-security-labs/iam-expand/compare/v0.11.94...v0.11.95) (2026-10-31)
 
 ## [0.11.94](https://github.com/act-security-labs/iam-expand/compare/v0.11.93...v0.11.94) (2026-10-31)
